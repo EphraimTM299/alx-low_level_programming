@@ -54,3 +54,4 @@ Main.h is included by all source files and includes every header file in the cor
 #include "DominionGame.h"
 
 #include "App.h"
+#include "Config.h"
