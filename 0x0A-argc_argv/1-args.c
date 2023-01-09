@@ -10,14 +10,14 @@
  * Return: 0 for code success
  */
 
-int main (int argc, char **argv)
+int main(int argc, char **argv)
 {
-	int i;
+	int sum;
 
-	for (i = 0; i < argc; i++)
+	for (sum = 0; sum < argc; sum++)
 	{
-		*argv[i] = *argv[i];
+		*argv[sum] = *argv[sum];
 	}
-	printf("%d\n", (i - 1));
-	return 0;
+	printf("%d\n", (sum - 1));
+	return (0);
 }
